@@ -1,0 +1,27 @@
+body {
+    font-family: 'Bangers', cursive;
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;        
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+h1 {
+    background: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 18px;
+    /* font-weight: normal; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
