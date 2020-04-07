@@ -4,6 +4,14 @@ body {
     background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+#billamt {
+    font-size: 14px;
+}
+#billamt:focus {
+    background: #fff;
+    border: 1px solid #75aacf;
+    outline: none;
+}
 #container {
     height: 525px;
     width: 360px;
@@ -14,14 +22,55 @@ body {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
 }
+.dollarSign {
+    display: inline;
+}
+form input[type="text"] {
+    width: 90px;
+}
 h1 {
-    background: whitesmoke;
+    background: rgba(202, 197, 197, 0.322);
     color: black;
     margin: 0;
     padding: 10px 100px;
+    text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
-    /* font-weight: normal; */
+    font-size: 30px;
+    font-weight: normal;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+input {
+    padding-left: 20px;
+}
+p {
+    padding-left: 20px;
+}
+#peopleamt {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    /* color: rgb(224, 28, 28); */
+    background-color: rgba (202, 197, 197, 0.322);
+    font-size: 14px;
+    border: 1px solid  #75aacf;
+}
+#serviceQual {
+    padding: 13px 13px 20px 20px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: rgb(219, 129, 70);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+
